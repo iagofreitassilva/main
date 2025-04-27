@@ -1,0 +1,99 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header,
+section h2 {
+    font-family: 'bungee', cursive;
+    font-weight: normal;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header h1 {
+    margin-left: 15px;
+}
+
+#contact {
+    margin-left: 30px;
+}
+
+header {
+    padding: 36px 0;
+    background-color: rgb(0, 119, 255);
+    color: #ecf0f1;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 20px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1288px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+section {
+    padding: 40px;
+}
+
+section p {
+    font-size: 22px;
+}
+
+section h2, p {
+    margin-bottom: 16px;
+    color:rgb(0, 119, 255);
+    margin-left: 40px;
+}
+
+.container img {
+    width: 700px;
+    height: 650px;
+    border: rgb(0, 119, 255);
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.articles img {
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+
+.portfolio li a {
+    text-decoration: none;
+    color: rgb(0, 119, 255);
+    font-family: 'bungee', cursive;
+    font-weight: normal;
+}
